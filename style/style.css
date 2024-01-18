@@ -1,0 +1,73 @@
+/* shared styles */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-button {
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+}
+
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+    /* height: 1322px;
+    width: 1990px; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li a{
+    text-decoration: none;
+}
+nav h3 {
+    color: #131313;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    color: #424242;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.banner-items {
+    width: 860px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    color: #131313;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner-text {
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.banner-image {
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
